@@ -1,0 +1,46 @@
+.flex-item-2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item-2 > div {
+  flex: 50%; /* or - flex: 0 50% - or - flex-basis: 50% - */
+}
+
+.progress-div h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.progress-bar {
+  background: #ffbd39;
+  height: inherit;
+  box-shadow: none;
+  line-height: 1.2;
+  position: relative;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.progress-bar span {
+  position: absolute;
+  top: -38px;
+  right: 0;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.progress:hover span {
+  opacity: 100%;
+}
+
+.progress {
+  height: 10px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #1a1a1a;
+  overflow: visible;
+}

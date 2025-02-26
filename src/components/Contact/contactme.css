@@ -1,0 +1,20 @@
+.contact-card {
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2.2rem 3.2em;
+  margin-bottom: 3em;
+  font-size: 12px;
+  transition: transform 0.2s ease;
+  -webkit-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 20px 69px -27px rgba(0, 0, 0, 0.17);
+  cursor: default;
+}
+
+.contact-card-text {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: white;
+  text-transform: uppercase;
+}

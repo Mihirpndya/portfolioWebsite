@@ -1,0 +1,45 @@
+.text {
+  transition: all 0.5s ease-in-out;
+}
+
+.subheading {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffbd39;
+}
+
+.heading {
+  font-size: 40px;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.heading span {
+  font-weight: 800;
+  color: #ffbd39;
+}
+
+.heading2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #e6e1e1;
+}
+
+@media (min-width: 768px) {
+  .wrap1 {
+    text-wrap: wrap;
+    max-width: 20rem;
+  }
+  
+  .wrap2 {
+    text-wrap: wrap;
+    max-width: 29rem;
+  }
+
+  .heading {
+    font-size: 60px;
+  }
+}

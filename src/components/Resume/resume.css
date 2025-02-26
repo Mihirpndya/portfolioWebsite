@@ -1,0 +1,42 @@
+.resume-card {
+  margin: 20px;
+  height: 12rem;
+  width: 45%;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-card:hover {
+  cursor: pointer;
+  transform: scale(1.04);
+}
+
+.resume-card span {
+  font-weight: 800;
+  font-size: 26px;
+  color: #ffbd39;
+}
+
+.resume-card h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  color: white;
+  font-weight: 400;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
