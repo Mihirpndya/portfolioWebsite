@@ -5,7 +5,7 @@ export const resume = {
 	Phone: "+917064111537",
 	address: "Bhubaneswar, Odisha, India",
 	resumeDriveLinkCode:
-		REACT_APP_RESUME_DRIVE_ID ?? "1jslgCOvvknAyb-P6wg_tfOlj_qw4B2LR",
+		REACT_APP_RESUME_DRIVE_ID ?? "1kWdD5esUmPfgQo7RTuyqTttPkIdLQzzu",
 	dob: {
 		month: "October",
 		year: "1998",
