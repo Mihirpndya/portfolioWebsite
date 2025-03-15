@@ -118,6 +118,10 @@ export const resume = {
 			name: "ViteTube",
 			link: "https://vitetube.netlify.app",
 		},
+{
+			name: "Product Comparer App",
+			link: "https://product-comparer.netlify.app/",
+		},
 	],
 	//hireMeHeader example: "I'm <span>open</span> to work!", use span for focusing texts
 	hireMeHeader: "I'm <span>Available</span> for freelancing",
